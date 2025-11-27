@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "microlicoes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "microlicoes (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "microlicoes (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+        ,
+        {
+            "name": "4.5 Attach",
+            "request": "attach",
+            "type": "dart",
+            // Optional: set a deviceId if you want to attach to a specific device automatically.
+            // "deviceId": "emulator-5554",
+            // If omitted, the extension will ask which device to attach to.
+        }
+    ]
+}
